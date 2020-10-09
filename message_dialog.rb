@@ -1,4 +1,16 @@
 module MessageDialog
+
+  puts <<~text
+
+    --------------------------------
+    |                                |
+    |          BATTLE START!         |
+    |                                |
+    ----------------------------------
+
+  text
+
+
   def attack_message(**params)
     attack_type = params[:attack_type]
 
