@@ -17,7 +17,7 @@ module MessageDialog
     puts "#{@name}の攻撃！"
     puts "#{@name}のたいあたり！" if attack_type == "normal_attack"
     puts "100万ボルト！" if attack_type == "special_attack"
-    puts "しかし、#{@name}の攻撃ははずれた！" if attack_type == "out_attack"
+    
 
   end
 

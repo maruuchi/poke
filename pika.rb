@@ -30,12 +30,9 @@ class Pika < Character
       if attack_num == 0
         # puts "1万ボルト"
         "special_attack"
-      elsif attack_num == 1
+      else attack_num == 1
         # puts "体当たり"
         "normal_attack"
-      else
-        # puts "攻撃がはずれた"
-        "out_attack"
       end
     end
 
@@ -45,10 +42,8 @@ class Pika < Character
 
       if attack_type == "special_attack"
         calculate_special_attack - target.defense
-      elsif attack_type == "normal_attack"
+      else attack_type == "normal_attack"
         @offense - target.defense
-      else
-        target.hp-target.hp
       end
     end
 
