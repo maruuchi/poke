@@ -4,12 +4,11 @@ module MessageDialog
 
     ----------------------------------
     |                                |
-    |          BATTLE START!         |
+    |       <<<BATTLE START!>>>      |
     |                                |
     ----------------------------------
 
   text
-
 
   def attack_message(**params)
     attack_type = params[:attack_type]
@@ -18,7 +17,6 @@ module MessageDialog
     puts "#{@name}のたいあたり！" if attack_type == "normal_attack"
     puts "100万ボルト！" if attack_type == "special_attack"
     
-
   end
 
   def damage_message(**params)
@@ -75,7 +73,6 @@ module MessageDialog
     グォォォォォォンン
 
     #{origin_name}は#{transform_name}に進化した!
-
 
     EOS
   end
