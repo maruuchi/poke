@@ -67,7 +67,7 @@ module MessageDialog
     puts <<~EOS
 
     #{origin_name}が激怒した！
-    おや？#{origin_name}の様子がおかしい！？
+    おや？#{origin_name}の様子が...！？
 
     グォォォォォォンン
 
