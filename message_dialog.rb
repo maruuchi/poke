@@ -69,7 +69,7 @@ module MessageDialog
     #{origin_name}が激怒した！
     おや？#{origin_name}の様子が...！？
 
-    グォォォォォォーーーン
+    グォォーーーーン
 
     #{origin_name}は#{transform_name}に進化した!
 
