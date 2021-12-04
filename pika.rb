@@ -28,10 +28,10 @@ class Pika < Character
       attack_num = rand(3)
 
       if attack_num == 0
-        # puts "1万ボルト"
+        # puts "電気攻撃"
         "special_attack"
       else attack_num == 1
-        # puts "体当たり"
+        # puts "タックル攻撃"
         "normal_attack"
       end
     end
