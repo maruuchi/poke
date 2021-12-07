@@ -6,6 +6,6 @@ require './games_controller'
 games_controller = GamesController.new
 
 pika = Pika.new(name: "ピカ", hp: 300, offense: 50, defense: 10)
-nya = Nya.new(name:"ニャー", hp: 200, offense: 30, defense: 20)
+nya = Nya.new(name:"ニャー", hp: 230, offense: 30, defense: 20)
 
 games_controller.battle(pika: pika, nya: nya)
