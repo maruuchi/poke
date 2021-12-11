@@ -15,7 +15,7 @@ module MessageDialog
 
     puts "#{@name}の攻撃！"
     puts "捨て身タックル攻撃！" if attack_type == "normal_attack"
-    puts "電気攻撃！" if attack_type == "special_attack"
+    puts "電気ショック攻撃！" if attack_type == "special_attack"
     
   end
 
