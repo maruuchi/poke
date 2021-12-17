@@ -68,7 +68,7 @@ module MessageDialog
     #{origin_name}が激怒した！
     おや？#{origin_name}の様子がおかしい...！？
 
-    グォォーーーーーン
+    ギャインーーー！
 
     #{origin_name}は#{transform_name}に進化した!
 
