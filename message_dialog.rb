@@ -13,7 +13,7 @@ module MessageDialog
   def attack_message(**params)
     attack_type = params[:attack_type]
 
-    puts "#{@name}の攻撃！"
+    puts "#{@name}の攻撃"
     puts "タックル攻撃！" if attack_type == "normal_attack"
     puts "電気ショック攻撃！" if attack_type == "special_attack"
     
