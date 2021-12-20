@@ -35,7 +35,7 @@ module MessageDialog
     if result[:pika_win_flag]
       puts <<~EOS
 
-      ピカは戦いに勝利した！
+      ピカは戦いに勝利した！！
 
     ----------------------------------
     |                                |
