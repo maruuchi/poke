@@ -65,7 +65,7 @@ module MessageDialog
 
     puts <<~EOS
 
-    #{origin_name}が激怒した！
+    #{origin_name}の残りHPが少ない！
     おや？#{origin_name}の様子がおかしい...！？
 
     
